@@ -1,0 +1,39 @@
+#container {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 50%;
+}
+.logo{
+    max-width: 130px;
+    position: absolute;
+  }
+
+  body {
+      background-color: rgba(99, 107, 177, 0.452);
+  }
+  h1{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: hsla(0, 48%, 17%, 0.712);
+      margin-top: 1px;
+      margin-bottom: 1px;
+      padding-bottom: 1px;
+  }
+  h2{
+      text-align: center;
+  }
+  nav{
+      background-color:rgba(235, 235, 235, 0.61);
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  li{
+      margin-top: 5px;
+      font-family: cursive;
+      font-size: 25px;
+      list-style-type: none;
+  }
+.violinimg{
+    margin-left: 250px;
+    width: 900px;
+    height: 300px;
+}
