@@ -1,39 +1,51 @@
 #container {
-    font-size: 30px;
-    text-align: center;
-    margin-left: 50%;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 50%;
 }
-.logo{
-    max-width: 130px;
-    position: absolute;
-  }
+.logo {
+  max-width: 130px;
+  position: absolute;
+}
 
-  body {
-      background-color: rgba(99, 107, 177, 0.452);
-  }
-  h1{
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: hsla(0, 48%, 17%, 0.712);
-      margin-top: 1px;
-      margin-bottom: 1px;
-      padding-bottom: 1px;
-  }
-  h2{
-      text-align: center;
-  }
-  nav{
-      background-color:rgba(235, 235, 235, 0.61);
-      text-align: center;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  li{
-      margin-top: 5px;
-      font-family: cursive;
-      font-size: 25px;
-      list-style-type: none;
-  }
-.violinimg{
-    margin-left: 250px;
-    width: 900px;
-    height: 300px;
+body {
+  background-color: whitesmoke;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: hsla(0, 48%, 17%, 0.712);
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+h2 {
+  text-align: center;
+}
+nav {
+  background-color: rgba(235, 235, 235, 0.61);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+li {
+  margin-top: 5px;
+  font-family: cursive;
+  font-size: 25px;
+  list-style-type: none;
+}
+.violinimg {
+  margin-left: 250px;
+  width: 900px;
+  height: 300px;
+}
+#vio {
+  padding-top: 30px;
+}
+
+.pr {
+  text-align: center;
+  border-color: cornsilk;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 1000px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
