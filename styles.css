@@ -21,6 +21,13 @@ h1 {
 h2 {
   text-align: center;
 }
+h3 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 35px;
+  color: hsla(0, 48%, 17%, 0.712);
+  margin-top: 65px;
+}
 nav {
   background-color: rgba(235, 235, 235, 0.61);
   text-align: center;
@@ -34,18 +41,21 @@ li {
 }
 .violinimg {
   margin-left: 250px;
-  width: 900px;
+  width: 850px;
   height: 300px;
 }
-#vio {
-  padding-top: 30px;
+
+.columns {
+  float: left;
+  margin: 100px;
+  margin-top: 80px;
+  margin-left: 130px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  text-align: center;
+}
+.prImg{
+  max-width: 210px;
+  height: 250px;
 }
 
-.pr {
-  text-align: center;
-  border-color: cornsilk;
-  margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 1000px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+
