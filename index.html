@@ -9,9 +9,6 @@
   <body>
     <header id="header">
       <img class="logo" src="images/logo.jpg" alt="" />
-      <container id="container">
-        <h1>Original Violins</h1>
-      </container>
       <nav>
         <ul>
           <li><a href="#violins">Violins</a></li>
@@ -22,30 +19,48 @@
       </nav>
     </header>
     <container id="aboutUS">
-        <img class="violinimg" src="images/violin.jpeg" >
+      <img class="violinimg" src="images/violin.jpeg" />
       <h2>
         Here at Original Violins we got one of the best quality build violins
-        made out of Japanese Maple trees.
-      </h2>
-      
+        made out of Japanese Maple trees. </h2>
     </container>
+    <br />
     <container id="violins" class="row">
-        <h3>VIOLINS</h3>
-        <div class="columns">
-          <img class="prImg" src="images/pr.jpeg">
-          <h4>Price: $650</h4>
-        </div>
-
-        <div class="columns">
-          <img class="prImg" src="images/pr1.jpeg">
-          <h4>price: $500</h4>
-
-        </div>
-        <div class="columns">
-          <img class="prImg" src="images/pr2.jpeg">
-          <h4>price: $700</h4>
-
-        </div>
+      <h3>VIOLINS</h3>
+      <div class="columnsOne">
+        <img class="prImg" src="images/pr.jpeg" />
+        <h4>Price: $650</h4>
+        <label for="ViolinSize">Size</label>
+        <select name="size" id="ViolinSize">
+          <option value="full">4/4</option>
+          <option value="three">3/4</option>
+          <option value="half">1/2</option>
+        </select>
+      </div>
+      <div class="columns">
+        <img class="prImg" src="images/pr1.jpeg" />
+        <h4>Price: $500</h4>
+      </div>
+      <div class="columns">
+        <img class="prImg" src="images/pr2.jpeg" />
+        <h4>Price: $700</h4>
+      </div>
+    </container>
+    <br />
+    <container id="bows" class="row">
+      <h3>BOWS</h3>
+      <div class="columns">
+        <img class="prImg" src="images/bo.jpeg" />
+        <h4>Price: $200</h4>
+      </div>
+      <div class="columns">
+        <img class="prImg" src="images/bo1.jpeg" />
+        <h4>Price: $220</h4>
+      </div>
+      <div class="columns">
+        <img class="prImgTwo" src="images/bo2.jpeg" />
+        <h4>Price: $205</h4>
+      </div>
     </container>
   </body>
 </html>
