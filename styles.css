@@ -1,22 +1,19 @@
-#container {
-  font-size: 30px;
-  text-align: center;
-  margin-left: 50%;
+html body {
+  background-color: rgb(229, 226, 226);
+  margin: 0px;
+  height: 100%;
 }
 .logo {
   max-width: 130px;
   float: left;
 }
-
-body {
-  background-color: whitesmoke;
-  margin: 0px;
-}
 h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: hsla(0, 48%, 17%, 0.712);
-  margin-left:150px;
- margin-top: 0px;
+  font-family:sans-serif;
+  background-color: rgba(245, 245, 13, 0.719);
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 65px;
 }
 h2 {
   text-align: center;
@@ -24,16 +21,17 @@ h2 {
 h3 {
   font-family: cursive;
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
+  text-transform: uppercase;
   color: hsla(0, 48%, 17%, 0.712);
   margin-top: 65px;
 }
-header{
-  background: #55d6aa;
+header {
+  background: rgba(245, 245, 13, 0.719);
   margin: 0px;
 }
-header::after{
-  content: '';
+header::after {
+  content: "";
   display: table;
   clear: both;
 }
@@ -60,26 +58,22 @@ nav li {
   margin-right: 10px;
   padding-top: 36px;
 }
+#aboutUs {
+ position: absolute;
+}
 .violinimg {
   margin-left: 250px;
   width: 850px;
   height: 300px;
   position: relative;
 }
+#violinsOne {
+  height: 650px;
+}
 
 .columns {
   float: left;
-  margin: 100px;
-  margin-top: 80px;
-  margin-left: 130px;
-  margin-right: 50px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  text-align: center;
-  height: 330px;
-  width: 250px;
-}
-.columnsOne {
-  float: left;
+  background-color: white;
   margin: 100px;
   margin-top: 80px;
   margin-left: 130px;
