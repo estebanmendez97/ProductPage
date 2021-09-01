@@ -80,7 +80,7 @@ nav li {
   margin-right: 50px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   text-align: center;
-  height: 350px;
+  height: 380px;
   width: 250px;
 }
 .prImg {
@@ -93,4 +93,8 @@ nav li {
   max-width: 215px;
   height: 250px;
   margin-top: 10px;
+}
+button{
+  width: 40px;
+  height: 25px;
 }

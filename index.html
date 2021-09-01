@@ -32,13 +32,16 @@
       <div class="columns">
         <img class="prImg" src="images/pr.jpeg" />
         <h4>Price: $650</h4>
-        <label for="violinSize">Size</label>
-        <select class="box" name="size" id="VzOne">
-          <option value="empty">Choose</option>
-          <option value="full">4/4</option>
-          <option value="three">3/4</option>
-          <option value="half">1/2</option>
-        </select>
+        <form action="index.html" method="POST">
+          <label for="violinSize">Size</label>
+          <select  class="box" name="size" id="VzOne">
+            <option value="empty">Choose</option>
+            <option value="full">4/4</option>
+            <option value="three">3/4</option>
+            <option value="half">1/2</option>
+          </select>
+          <button type="submit">buy</button>
+        </form>
       </div>
       <div class="columns">
         <img class="prImg" src="images/pr1.jpeg" />
@@ -83,4 +86,5 @@
 
     <div id="other"></div>
   </body>
+  <script src="main.js" onclick="myfunction();"></script>
 </html>
