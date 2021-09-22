@@ -26,6 +26,10 @@ h3 {
   color: hsla(0, 48%, 17%, 0.712);
   margin-top: 65px;
 }
+h4 {
+  margin-top: 0;
+}
+
 header {
   background: rgba(245, 245, 13, 0.719);
   margin: 0px;
@@ -97,4 +101,14 @@ nav li {
 button{
   width: 40px;
   height: 25px;
+}
+.cimg{
+height: 70px;
+width: 65px;
+float: right;
+margin-right: 10px;
+}
+.cart{
+
+
 }
