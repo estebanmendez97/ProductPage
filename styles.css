@@ -9,7 +9,7 @@ html body {
 }
 h1 {
   font-family:sans-serif;
-  background-color: rgba(245, 245, 13, 0.719);
+  background-color: rgb(255, 255, 31);
   text-transform: capitalize;
   text-align: center;
   margin-top: 0px;
@@ -26,12 +26,19 @@ h3 {
   color: hsla(0, 48%, 17%, 0.712);
   margin-top: 65px;
 }
-h4 {
-  margin-top: 0;
+h4{
+  text-align: center;
+}
+h5{
+  font-size: 19px;
+  text-align: right;
+  margin: 0px;
+  position: absolute;
+  right: 90px;
 }
 
 header {
-  background: rgba(245, 245, 13, 0.719);
+  background: rgb(253, 253, 24);
   margin: 0px;
 }
 header::after {
@@ -108,7 +115,4 @@ width: 65px;
 float: right;
 margin-right: 10px;
 }
-.cart{
 
-
-}
