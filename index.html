@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>Violin Page</title>
   </head>
   <body>
@@ -14,15 +22,16 @@
           <li><a href="#violinsOne">Violins</a></li>
           <li><a href="#bows">Bows</a></li>
           <li><a href="#contactUs">Contact us</a></li>
+          <li id="cart">
+            <a href="cart.html">
+              <ion-icon name="cart-outline"></ion-icon>cart<span></span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
-    <div class="cart">
-      <img class="cimg" src="images/carttOne.jpeg">
-      <h5 id="cart"></h5>
-    </div>
     <h1>original violins</h1>
-    
+
     <div id="aboutUS">
       <img class="violinimg" src="images/violin.jpeg" />
       <h2>
@@ -36,14 +45,14 @@
       <div class="columns">
         <img class="prImg" src="images/pr.jpeg" />
         <h4>Price: $650</h4>
-          <label for="violinSize">Size</label>
-          <select id="sel-get" class="box" name="size">
-            <option value="empty">Choose</option>
-            <option value="full">4/4</option>
-            <option value="three">3/4</option>
-            <option value="half">1/2</option>
-          </select>
-          <button id="btn-get" type="submit">BUY</button>
+        <label for="violinSize">Size</label>
+        <select id="sel-get" class="box" name="size">
+          <option value="empty">Choose</option>
+          <option value="full">4/4</option>
+          <option value="three">3/4</option>
+          <option value="half">1/2</option>
+        </select>
+        <button id="btn-get" type="submit">BUY</button>
       </div>
       <div class="columns">
         <img class="prImg" src="images/pr1.jpeg" />
@@ -55,7 +64,7 @@
           <option value="three">3-4</option>
           <option value="half">1/2</option>
         </select>
-        <button id="btn-on-get" type="submit">BUY</button>
+        <button id="btn-get" type="submit">BUY</button>
       </div>
       <div class="columns">
         <img class="prImg" src="images/pr2.jpeg" />
@@ -67,7 +76,7 @@
           <option value="three">3/4</option>
           <option value="half">1/2</option>
         </select>
-        <button id="btn-t-get" type="submit">BUY</button>
+        <button id="btn-get" type="submit">BUY</button>
       </div>
     </div>
     <div id="bows" class="row">
@@ -75,43 +84,41 @@
       <div class="columns">
         <img class="prImg" src="images/bo.jpeg" />
         <h4>Price: $200</h4>
-          <label for="bowSise">Size</label>
-          <select id="sel-bo-get" name="size" >
-            <option value="empty">choose</option>
-            <option value="full">4/4</option>
-            <option value="three">3/4</option>
-            <option value="half">1/2</option>
-          </select>
-          <button id="btn-bo-get" type="submit">BUY</button>
+        <label for="bowSise">Size</label>
+        <select id="sel-bo-get" name="size">
+          <option value="empty">choose</option>
+          <option value="full">4/4</option>
+          <option value="three">3/4</option>
+          <option value="half">1/2</option>
+        </select>
+        <button id="btn-get" type="submit">BUY</button>
       </div>
       <div class="columns">
         <img class="prImg" src="images/bo1.jpeg" />
         <h4>Price: $220</h4>
-          <label for="bowSize">Size</label>
-          <select id="sel-bt-get" name="size">
+        <label for="bowSize">Size</label>
+        <select id="sel-bt-get" name="size">
           <option id="one" value="empty">Choose</option>
           <option value="full">4/4</option>
           <option value="three">4/3</option>
           <option value="half">1/2</option>
         </select>
-        <button id="btn-bt-get" type="submit">BUY</button>
+        <button id="btn-get" type="submit">BUY</button>
       </div>
       <div class="columns">
         <img class="prImgTwo" src="images/bo2.jpeg" />
         <h4>Price: $205</h4>
-          <label for="bowSize">Size</label>
-          <select id="sel-btr-get" name="size">
-            <option id="1" value="empty">Choose</option>
-            <option value="full">4/4</option>
-            <option value="three">3/4</option>
-            <option value="half">1/2</option>
-          </select>
-          <button id="btn-btr-get" type="submit">BUY</button>
+        <label for="bowSize">Size</label>
+        <select id="sel-btr-get" name="size">
+          <option id="1" value="empty">Choose</option>
+          <option value="full">4/4</option>
+          <option value="three">3/4</option>
+          <option value="half">1/2</option>
+        </select>
+        <button id="btn-get" type="submit">BUY</button>
       </div>
     </div>
-    <div id="contactUs">
-      
-    </div>
+    <div id="contactUs"></div>
     <script src="main.js"></script>
   </body>
 </html>
