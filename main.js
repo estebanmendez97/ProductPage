@@ -1,12 +1,16 @@
 let btnGet = document.querySelector("#btn-get");
-let btnOGet = document.querySelector("btn-o-get");
+let btnOnGet = document.querySelector("#btn-on-get");
 let btnTGet = document.querySelector("#btn-t-get");
 let btnBoGet = document.querySelector("#btn-bo-get");
+let btnBtGet = document.querySelector("#btn-bt-get");
+let btnBtrGet = document.querySelector("#btn-btr-get");
 
 let selGet = document.querySelector("#sel-get");
-let selOGet = document.querySelector("#sel-o-get");
+let selOnGet = document.querySelector("#sel-on-get");
 let selTGet = document.querySelector("#sel-t-get");
 let selBoGet = document.querySelector("#sel-bo-get");
+let selBtGet = document.querySelector("#sel-bt-get");
+let selBtrGet = document.querySelectorAll("#sel-btr-get");
 
 let cart = document.querySelector("#cart");
 
@@ -14,8 +18,8 @@ btnGet.addEventListener("click", () => {
   cart.innerText = selGet.value;
 });
 
-btnOGet.addEventListener("click", () => {
-  cart.innerText = selOGet.value;
+btnOnGet.addEventListener("click", () => {
+cart.innerText = selOnGet.value;
 });
 
 btnTGet.addEventListener("click", () => {
@@ -24,4 +28,13 @@ btnTGet.addEventListener("click", () => {
 
 btnBoGet.addEventListener("click", () => {
   cart.innerText = selBoGet.value;
+});
+
+btnBtGet.addEventListener("click", () => {
+  cart.innerText = selBtGet.value;
+
+});
+
+btnBtrGet.addEventListener("click", () => {
+  cart.innerText = selBtGet.value; 
 });
